@@ -21,7 +21,7 @@ function GlobalContext({ children }) {
       method: "GET",
       headers: {
         accept: "application/json",
-        "x-cg-pro-api-key": "CG-AQ5XYoFcGqjoN48j9YbG1Cj6",
+        // "x-cg-pro-api-key": "CG-AQ5XYoFcGqjoN48j9YbG1Cj6",
       },
     };
 
