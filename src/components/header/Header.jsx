@@ -41,6 +41,9 @@ function Header() {
           <li className=" text-gray-600 hover:text-black  dark:text-gray-300 dark:hover:text-white transition-all duration-200">
             <NavLink to={"compare"}>Compare</NavLink>
           </li>
+          <li className=" text-gray-600 hover:text-black  dark:text-gray-300 dark:hover:text-white transition-all duration-200">
+            <NavLink to={"news"}>News</NavLink>
+          </li>
 
           <Link
             to={"dashboard"}
@@ -74,7 +77,9 @@ function Header() {
               <li className=" text-gray-600 hover:text-black  dark:text-gray-300 dark:hover:text-white transition-all duration-200">
                 <NavLink to={"compare"}>Compare</NavLink>
               </li>
-
+              <li className=" text-gray-600 hover:text-black  dark:text-gray-300 dark:hover:text-white transition-all duration-200">
+                <NavLink to={"news"}>News</NavLink>
+              </li>
               <li>
                 <Link
                   to={"dashboard"}

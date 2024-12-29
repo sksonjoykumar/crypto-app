@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Toast from "./components/toast-message/Toast";
 import BackToTop from "./components/back-to-top/BackToTop";
 import CoinPage from "./components/coin-page/CoinPage";
+import CryptoNews from "./components/crypto-news/CryptoNews";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/compare" element={<ComparePage />} />
+          <Route path="/news" element={<CryptoNews />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/coin/:id" element={<CoinPage />} />
         </Routes>
