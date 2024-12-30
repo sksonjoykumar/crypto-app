@@ -70,12 +70,12 @@ const CryptoNews = () => {
                 key={item.url || index}
                 className="border dark:border-[#0F925C] p-3 rounded-md shadow-sm bg-white dark:bg-gray-800 hover:scale-175 transition-all duration-300"
               >
-                <div className="flex gap-2 md:gap-4 font-inter">
+                <div className="flex gap-2 md:gap-4 font-inter cursor-pointer">
                   <a
                     href={item.url}
                     target="blank"
                     title="Open Link"
-                    className="w-full cursor-pointer"
+                    className="w-full "
                   >
                     <img
                       src={item.thumbnail}
